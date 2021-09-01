@@ -12,7 +12,7 @@ I use a 2020 13&Prime; M1 MacBook Pro as my primary computer. It has been quite 
 
 It's almost always plugged into a [Dell P2715Q](https://www.dell.com/is/business/p/dell-p2715q-monitor/pd) 27&Prime; LCD monitor which, despite not having any USB-C ports, I've liked a lot.
 
-I use a wired Apple Keyboard with Numeric Keypad. I have a mechanical keyboard that fell out of use when I was working in an office with others and should get back into, but it's not up to the standards of the enthusiasts I follow. I even have an IBM Model M and an Apple Extended Keyboard II that I _love_ the feel of but are impractical to connect to modern hardware.
+I use wireless Keychron K2 which is not up to the standards of the enthusiasts I follow but a great entry-level mechanical keyboard. I previously used an old IBM Model M that's almost as old as I am and an Apple Extended Keyboard II that I _love_ the feel of but is impractical to connect to modern hardware.
 
 I use a Apple Magic Mouse 2, which I just upgraded to from an Magic Mouse that I've had for years. I know many mock it, but I like it a lot. I tried a Logitech MX Master but couldn't get used to the ergonomics.
 
@@ -70,7 +70,7 @@ Some of the apps I use on a regular basis.
 * **Apollo** (iOS): Much better than new Reddit.
 * **Chrome** (macOS): Occasionally need to fire it up for the dev tools, which are top-notch.
 * **Drafts** (iOS): I should use this more.
-* **Dropbox** (macOS, iOS): I've never paid for it or used any of it's. I have 6GB+ or so of free usage from referrals back in the day and it's good enough for what it does. Keeps a bunch of folders in sync and backed up across devices.
+* **Dropbox** (macOS, iOS): I've never paid for it or used any of it's newer advanced features. I have 6GB+ or so of free usage from referrals back in the day and it's good enough for what it doe: keep a bunch of files in sync and backed up across a few devices.
 * **Fantastical** (iOS): I only use this on my iPhone.
 * **GoodReader** (iOS): The best app I've found for consuming PDFs on the iPad.
 * **Google Photos** (iOS, Web): The search is amazing and I love seeing photos on our Google Nest Hub in the kitchen. It's also nice to have (another) automated backup. I use their API for creating a photo calendar for my wife's Christmas present every year.
