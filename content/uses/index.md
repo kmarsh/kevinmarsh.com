@@ -65,7 +65,6 @@ Some of the apps I use on a regular basis.
 
 * **1Password** (macOS, iOS): I try to do the right thing and use random password for everything.
 * **Adobe Lightroom** (macOS): While I don't use it much these days, all my photos pre-2019 or so are here. Since shooting mostly with my iPhone, importing became too cumbersome compared to iCloud and Google Photos so it's mostly an archive of the past. I still use the Classic version because, as of very recently, the cloud one still didn't support printing(!)
-* **Alfred** (macOS): I got on the launcher bandwagon years ago with [Quicksilver](https://qsapp.com). While its development languished Alfred stepped up.
 * **AnyList** (iOS): Sharing grocery lists and recipes with the wife has never been easier, especially with Alexa and Google Home integration ("Alexa, add beer to the grocery list.")
 * **Apollo** (iOS): Much better than new Reddit.
 * **Chrome** (macOS): Occasionally need to fire it up for the dev tools, which are top-notch.
@@ -75,6 +74,7 @@ Some of the apps I use on a regular basis.
 * **GoodReader** (iOS): The best app I've found for consuming PDFs on the iPad.
 * **Google Photos** (iOS, Web): The search is amazing and I love seeing photos on our Google Nest Hub in the kitchen. It's also nice to have (another) automated backup. I use their API for creating a photo calendar for my wife's Christmas present every year.
 * **Plex** (Everywhere): I run a Plex Media Server on my Synology and stream TV and Movies to almost any device.
+* **Raycast** (Mac): Recently made the jump from Alfred. I haven't yet tapped its potential but love the extensibility.
 * **Reeder** (iOS, Mac): The best app to consume RSS feeds, used with [Feedbin](https://feedbin.com)
 * **Safari**: For performance, privacy, and battery life I've recently switched to Safari from Chrome as my daily driver.
 * **Snapseed** (iOS): For quick editing of photos before sharing
@@ -100,7 +100,7 @@ At the center is a [UniFi Dream Machine](https://store.ui.com/collections/unifi-
 
 Everything works together really well, of course, and the iOS app makes managing it and checking stats a breeze.
 
-There is also a [Synology DS918+](https://www.amazon.com/Synology-bay-DiskStation-DS918-Diskless/dp/B075N1Z9LT) in the basement with 4 6TB drives. Like everyone else that raves about these, it has been a great experience. It has just enough power to run Plex Media Server and some Docker containers (like Homebridge.)
+There is also a [Synology DS918+](https://www.amazon.com/Synology-bay-DiskStation-DS918-Diskless/dp/B075N1Z9LT) in the basement with 4 6TB drives. Like everyone else that raves about these, it has been a great experience. It has just enough power to run Plex Media Server and some Docker containers like Homebridge.
 
 # Blog (Colophon)
 
