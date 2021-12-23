@@ -41,11 +41,11 @@ I love these polygonal desktop wallpapers and use them both on my desktop and ph
 
 # Office
 
-![](https://icdn.remarkedusercontent.com/s/sh:0.5/q:80/rs:fit:1280/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3Mvd29zNmk4UE0vSU1HXzA1NjguanBn.jpg)
+![](https://icdn.remarkedusercontent.com/s/sh:0.5/rs:fit:1280/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MveDRzOGlHb0ovSU1HXzAyNjguanBlZw.png)
 
 In the Summer of 2020 I remodeled our smaller detached garage into an office I call The _Shedquarters_. It's small at just over 200 ft&sup2; but just big enough for a desk, a fridge full of drinks, and some shelves. Quiet and peaceful, yet still close to home, it's my favorite place to work.
 
-I sit in a Herman Miller Mirra chair that I bought in 2010 and has served me well for hours a day ever since, they've even sent someone to my home once to fix a cracked back free of charge!
+I sit in a Herman Miller Mirra chair that I bought in 2010 and has served me well for hours a day ever since, they've even sent someone to my home twice to fix a cracked back free of charge!
 
 My desk is a [Jarvis standing desk by Fully](https://www.fully.com/standing-desks/jarvis/jarvis-adjustable-height-desk-bamboo.html) that I don't take advantage of enough throughout the day and wish was bigger.
 
@@ -57,7 +57,7 @@ I try and scan every piece of paper that comes my way with a [Fuji ScanSnap S150
 
 # Phone
 
-I use an iPhone 11 Pro in Space Gray. I've owned pretty much all the iPhones, starting with the original back in 2007. I've felt the need to upgrade less and less as time goes on: maybe the differences are becoming less noticeable or maybe I'm just getting older. I love it and wish I didn't glance at it so much.
+I use an iPhone 13 Pro. I've owned pretty much all the iPhones, starting with the original back in 2007. I've felt the need to upgrade less and less as time goes on: maybe the differences are becoming less noticeable or maybe I'm just getting older. I love it and wish I didn't glance at it so much.
 
 ## Apps
 
