@@ -17,3 +17,10 @@ outputFormats:
   RSS:
     mediatype: "application/rss"
     baseName: feed
+
+security:
+  exec:
+    osEnv:
+      - '(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$'
+      - ^ASDF_DIR$
+      - ^HOME$
