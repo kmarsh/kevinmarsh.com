@@ -4,7 +4,6 @@ languageCode: en-us
 title: Kevin Marsh
 permalinks:
   posts: /:year/:month/:day/:slug/
-uglyurls: true
 markup:
   highlight:
     noClasses: false
