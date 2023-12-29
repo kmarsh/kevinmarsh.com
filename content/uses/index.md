@@ -8,23 +8,25 @@ aliases:
   Like most geeks, I spend an inordinate amount of time obsessing about technology choices. Here are some I'm happy with:
 </div>
 
-I use a 2020 13&Prime; M1 MacBook Pro as my primary computer. It has been quite amazing, even given the fact it's a bit before its time with regard to compatibility. I'm impressed how snappy and responsive it feels so far.
+I use a 2023 14&Prime; MacBook Pro with an M2 Max as my primary computer, which is the best computer I've ever owned.
 
 It's almost always plugged into a [Dell P2715Q](https://www.dell.com/is/business/p/dell-p2715q-monitor/pd) 27&Prime; LCD monitor which, despite not having any USB-C ports, I've liked a lot.
 
-I use wireless Keychron K2 which is not up to the standards of the enthusiasts I follow but a great entry-level mechanical keyboard. I previously used an old IBM Model M that's almost as old as I am and an Apple Extended Keyboard II that I _love_ the feel of but is impractical to connect to modern hardware.
+I use Keychron Q3 mechanical keyboard with Gateron G Pro Blue switches. I'm still amazed how heavy and solid it feels, with just the right amount of click sound. I previously used an old IBM Model M that's almost as old as I am and an Apple Extended Keyboard II that I _love_ the feel of but is impractical to connect to modern hardware.
 
-I use a Apple Magic Mouse 2, which I just upgraded to from an Magic Mouse that I've had for years. I know many mock it, but I like it a lot. I tried a Logitech MX Master but couldn't get used to the ergonomics.
+I recently switched to a Logitech MX Master 3S after using a Magic Mouse forever. I still don't think I've gotten used to feel of it, but its realistically the only option for connecting to PCs.
+
+Speaking of which, I also have a PC that I built in early 2022 with a that I rarely use but put together to experiment with GPU stuff.
 
 # Development
 
-![](https://icdn.remarkedusercontent.com/s/q:90/rs:fit:1280/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvV2VzbWl5bkEvU2NyZWVuJTIwU2hvdCUyMDIwMjAtMTItMTYlMjBhdCUyMDMuMTQuNTQlMjBQTS5wbmc.jpg)
+![](https://icdn.remarkedusercontent.com/s/q:90/rs:fit:1280/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvZGxzbmlWdk4vU2NyZWVuc2hvdCUyMDIwMjMtMTItMjklMjBhdCUyMDkuMzcuMDklMjBBTS5wbmc.jpg)
 
-I've used Visual Studio Code for all development since around 2017. I don't use many of its advanced features, but have made a commitment to use the built in terminal and git integration more and it's been pretty good!
+I've used Visual Studio Code for all development since around 2017. I don't use many of its advanced features, but have gradually gotten used to the built-in terminal. I rarely use the other features like debugging or the git UI, but I do use GitHub CoPilot and am often amazed at how good it is.
 
-I'm a sucker for the [Ocean Dark](https://marketplace.visualstudio.com/items?itemName=kleber-swf.ocean-dark-extended) theme and I've made variations for [Terminal.app](https://d1j4kwyjzsqmb8.cloudfront.net/KAM%20Ocean%20Dark.terminal) and [Alfred](https://d1j4kwyjzsqmb8.cloudfront.net/KAM%20Ocean%20Dark.alfredappearance) as well. I've taken cues from the colors for this site as well.
+I'm a sucker for the [Ocean Dark](https://marketplace.visualstudio.com/items?itemName=kleber-swf.ocean-dark-extended) theme, and have made a version for [Terminal.app](https://d1j4kwyjzsqmb8.cloudfront.net/KAM%20Ocean%20Dark.terminal). I've taken cues from the colors for this site as well.
 
-I use the [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) font from Adobe which is free and open source.
+I use the [MonoLisa](https://www.monolisa.dev) font and paid for it after being wooed by the italic variant, which I could never get used to and turned off.
 
 Previously I used Sublime Text and TextMate (like everyone after DHH's infamous screencast) and have given vim more tries than I can count.
 
@@ -66,7 +68,6 @@ Some of the apps I use on a regular basis.
 * **1Password** (macOS, iOS): I try to do the right thing and use random password for everything.
 * **Adobe Lightroom** (macOS): While I don't use it much these days, all my photos pre-2019 or so are here. Since shooting mostly with my iPhone, importing became too cumbersome compared to iCloud and Google Photos so it's mostly an archive of the past. I still use the Classic version because, as of very recently, the cloud one still didn't support printing(!)
 * **AnyList** (iOS): Sharing grocery lists and recipes with the wife has never been easier, especially with Alexa and Google Home integration ("Alexa, add beer to the grocery list.")
-* **Apollo** (iOS): Much better than new Reddit.
 * **Chrome** (macOS): Occasionally need to fire it up for the dev tools, which are top-notch.
 * **Drafts** (iOS): I should use this more.
 * **Dropbox** (macOS, iOS): I've never paid for it or used any of it's newer advanced features. I have 6GB+ or so of free usage from referrals back in the day and it's good enough for what it doe: keep a bunch of files in sync and backed up across a few devices.
@@ -82,7 +83,6 @@ Some of the apps I use on a regular basis.
 * **Spotify:** I've been a user since you had to use a proxy server in the US. Their music discovery has gotten so good.
 * **TablePlus:** For connecting to PostgreSQL database servers (or any) with a decent GUI. Replaced Sequel Pro.
 * **TickTick:** Giving this a go for task management. I gave OmniFocus a bunch of money over the years but it never stuck.
-* **Tweetbot:** As much as I'd like to avoid Twitter, I keep coming back.
 
 # Photography
 
