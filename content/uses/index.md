@@ -53,13 +53,11 @@ My desk is a [Jarvis standing desk by Fully](https://www.fully.com/standing-desk
 
 I have way more notebooks than I could ever use, and am somehow always buying more. I typically keep a pad open on my desk, usually a [Field Notes](https://fieldnotesbrand.com/products/pitch-black-memo-book) or a [Rhodia spiral bound pad](https://rhodiapads.com/collections_spiral_A5.php) for quickly jotting things down. Dot grid, please. I have a similar obsession with pens. My current favorites are the [Le Pen](https://uchida.com/products/le-pen) by Marvy Uchida and Pilot [Razor Points](http://pilotpen.us/brands/razor-point/razor-point/).
 
-I bought a [Canon PRO-100](https://www.usa.canon.com/internet/portal/us/home/products/details/professional-large-format-printers/professional-inkjet-printers/pro-100) inkjet printer really cheap one time from B&H that can print beautiful 13&Prime;&times;19&Prime; prints that, if it weren't for [Precision Colors](https://www.precisioncolors.com) inks, would be more far more expensive than just going to a lab. [Red River Paper](https://www.redrivercatalog.com) makes awesome stocks in lots of different sizes.
-
 I try and scan every piece of paper that comes my way with a [Fuji ScanSnap S1500M](https://www.fujitsu.com/global/products/computing/peripheral/scanners/scansnap/discontinued/s1500m/s1500m.html). Big props to them for continuing to support it through new releases of macOS! Right now I don't have a very good filing solution other than OCR'ing PDFs into Dropbox.
 
 # Phone
 
-I use an iPhone 14 Pro. I've owned pretty much all the iPhones, starting with the original back in 2007. I've felt the need to upgrade less and less as time goes on: maybe the differences are becoming less noticeable or maybe I'm just getting older. I love it and wish I didn't glance at it so much.
+I use an 128GB iPhone 16 Pro. I've owned pretty much all the iPhones, starting with the original back in 2007. I've felt the need to upgrade less and less as time goes on: maybe the differences are becoming less noticeable or maybe I'm just getting older. I love it and wish I didn't glance at it so much.
 
 <img src="/2026-09-iphone-16-pro-home-screen.webp" alt="My iPhone home screen" width="1206" height="2622" class="w-64 mx-auto mb-4" />
 
