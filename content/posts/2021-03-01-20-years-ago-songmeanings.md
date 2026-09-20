@@ -16,7 +16,7 @@ Looking back I realized I learned more about my software career building SongMea
 
 ## Up And Running 2 Decades Later
 
-<img width="256" class="float-right" src="https://icdn.remarkedusercontent.com/s/sh:0.5/rs:fit:512:512/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvZGxzbmlrTG0vU00tUmVzb3VyY2UtQ0QuanBn.jpg" />
+<img class="w-64 mx-auto mb-4 sm:float-right sm:ml-4" src="https://icdn.remarkedusercontent.com/s/sh:0.5/rs:fit:512:512/aHR0cHM6Ly9jZG4ucmVtYXJrZWR1c2VyY29udGVudC5jb20vZmlsZS9yZW1hcmtlZC1wcm9kLzEvbWFya3MvZGxzbmlrTG0vU00tUmVzb3VyY2UtQ0QuanBn.jpg" />
 
 I found an old CD-R I had burned of the code and a database backup from October 2001 and wondered if I could get it running today. To my surprise, it took about 30 minutes to get the entire site back up and running again in a Docker container, looking exactly like it did 20 years ago. Like a mosquito trapped in amber. PHP4 and MySQL 3.23 installed in fractions of a second in a [`debian/eol:potato` Docker image](https://hub.docker.com/r/debian/eol/) on a modern 32-core machine[^2] and pages rendered flawlessly in a modern browser, just like they did in IE 6 on Windows 2000 at the time:
 
