@@ -29,5 +29,6 @@ security:
   exec:
     osEnv:
       - '(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$'
+      - ^NODE_ENV$
       - ^ASDF_DIR$
       - ^HOME$
