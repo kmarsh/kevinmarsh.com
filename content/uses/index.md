@@ -61,6 +61,8 @@ I try and scan every piece of paper that comes my way with a [Fuji ScanSnap S150
 
 I use an iPhone 14 Pro. I've owned pretty much all the iPhones, starting with the original back in 2007. I've felt the need to upgrade less and less as time goes on: maybe the differences are becoming less noticeable or maybe I'm just getting older. I love it and wish I didn't glance at it so much.
 
+<img src="/2026-09-iphone-16-pro-home-screen.webp" alt="My iPhone home screen" width="1206" height="2622" class="w-64 mx-auto mb-4" />
+
 ## Apps
 
 Some of the apps I use on a regular basis.
