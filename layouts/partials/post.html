@@ -22,4 +22,9 @@
   <div class="markdown">
     {{ .Content }}
   </div>
+
+  {{ if .Params.ai }}
+  <hr>
+  <p class="font-sans text-xs pt-2 text-gray-700">This post was drafted with the help of AI.</p>
+  {{ end }}
 </div>
