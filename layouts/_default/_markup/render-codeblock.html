@@ -1,0 +1,5 @@
+{{- $result := transform.HighlightCodeBlock . -}}
+{{- with .Attributes.filename -}}
+<div class="code-filename">{{ . }}</div>
+{{- end -}}
+{{ $result.Wrapped }}

@@ -93,6 +93,14 @@
   @apply font-mono text-sm md:text-base bg-blue-dark rounded p-2 -m-2 mt-4 mb-0 overflow-x-auto;
   color: #eff1f5;
 }
+.markdown .code-filename {
+  @apply font-sans text-xs bg-blue-dark rounded-t px-2 py-1 -mx-2 mt-4;
+  color: #a7adba;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.markdown .code-filename + .highlight pre {
+  @apply mt-0 rounded-t-none;
+}
 .markdown .highlight pre code {
   @apply bg-none;
 }
