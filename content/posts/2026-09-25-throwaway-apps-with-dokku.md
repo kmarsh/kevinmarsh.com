@@ -20,13 +20,11 @@ I pointed `*.apps.foo.tools` at the Dokku server now any name under `apps.foo.to
 
 This is the entire app, all two files:
 
-```json
+```json {filename="package.json"}
 {}
 ```
 
-That's `package.json`. And `server.js`:
-
-```js
+```js {filename="server.js"}
 require("http").createServer((req, res) => {
   res.end("hello world from test-2\n");
 }).listen(process.env.PORT || 5000);
@@ -37,45 +35,19 @@ No framework, no dependencies. The Node buildpack sees `package.json`, and with 
 ## Shipping It
 
 ```sh
-ssh lab2 'dokku apps:create test-2 && dokku domains:set test-2 test-2.apps.foo.tools'
+dokku apps:create test-2
+dokku domains:set test-2 test-2.apps.foo.tools
 git push dokku@lab2:test-2 main
-ssh lab2 'dokku letsencrypt:enable test-2'
+dokku letsencrypt:enable test-2
 ```
 
 About 25 seconds later, `https://test-2.apps.foo.tools` is live with its own Let's Encrypt cert. When I'm done with it:
 
 ```sh
-ssh lab2 'dokku apps:destroy test-2 --force'
+dokku apps:destroy test-2 --force
 ```
 
-## Buildpack or Dockerfile?
-
-I tried it both ways. The Dockerfile version fits in a *single* file by inlining the JavaScript with a heredoc `COPY`:
-
-```dockerfile
-# syntax=docker/dockerfile:1
-FROM node:22-alpine
-COPY <<'EOF' /app/server.js
-require("http").createServer((req, res) => {
-  res.end("hello world from test-1\n");
-}).listen(process.env.PORT || 5000);
-EOF
-EXPOSE 5000
-CMD ["node", "/app/server.js"]
-```
-
-Here's how they compared on the same hello world:
-
-| | Dockerfile (alpine) | Buildpack (herokuish) |
-|---|---|---|
-| Files | 1 | 2 |
-| Image size | 167 MB | 1.27 GB |
-| Memory | ~10 MiB | ~54 MiB |
-| Extra setup | `ports:set http:80:5000` | none |
-
-The buildpack image looks huge, but most of it is a base layer every buildpack app on the server shares, so each new app costs much less disk than that. The memory gap is mostly `npm start` hanging around as a parent process. A one-line `Procfile` with `web: node server.js` should close most of it.
-
-## Adding a Database
+## Adding Persistence
 
 A hello world is fun, but a lot of my little ideas need to remember *something*. For that, SQLite is perfect: no database server, just a file.
 
@@ -88,9 +60,9 @@ dokku storage:mount test-3 /var/lib/dokku/data/storage/test-3:/data
 
 The app reads and writes `/data/app.db`, which is really `/var/lib/dokku/data/storage/test-3/app.db` on the host. That's also a handy file to back up.
 
-I used [Bun](https://bun.sh) for this one because SQLite is built in, so there's still nothing to install. Here's `server.ts`, a hit counter:
+I used [Bun](https://bun.sh) for this one because SQLite is built in, so there's still nothing to install. Here's `server.ts`, a simple hit counter:
 
-```ts
+```ts {filename="server.ts"}
 import { Database } from "bun:sqlite";
 
 const db = new Database("/data/app.db", { create: true });
@@ -108,7 +80,7 @@ Bun.serve({
 
 And the `Dockerfile`:
 
-```dockerfile
+```dockerfile {filename="Dockerfile"}
 FROM oven/bun:1-alpine
 COPY server.ts /app/
 CMD ["bun", "/app/server.ts"]
@@ -127,3 +99,5 @@ These are all internal toys for me, so I've left it alone. If that matters to yo
 server { listen 80 default_server; server_name _; return 444; }
 server { listen 443 ssl default_server; server_name _; ssl_reject_handshake on; return 444; }
 ```
+
+In a world of complicated dev setups and toolchains, this is a nice. Almost as easy as [FTPing a PHP file to an Apache server](/2021/03/04/20-years-ago-songmeanings/).
