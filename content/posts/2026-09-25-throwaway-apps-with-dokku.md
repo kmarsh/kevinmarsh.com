@@ -2,7 +2,6 @@
 title: "Throwaway Apps with Dokku and a Wildcard Domain"
 date: 2026-09-25
 slug: throwaway-apps-with-dokku
-draft: false
 ai: true
 ---
 
